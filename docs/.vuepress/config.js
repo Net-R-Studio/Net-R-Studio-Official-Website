@@ -48,12 +48,12 @@ module.exports = {
             //   text: '分类' // 默认文案 “分类”
             // },
             tag: {
-              location: 2,     // 在导航栏菜单中所占的位置，默认3
-              text: '标签'      // 默认文案 “标签”
+                location: 2,     // 在导航栏菜单中所占的位置，默认3
+                text: '标签'      // 默认文案 “标签”
             }
-          },
+        },
         author: 'Net-R-Studio',
-        // logo: '/head.png',
+        logo: '/avater.png',
         subSidebar: 'auto',
         // authorAvatar: '/avatar.png',
         activeHeaderLinks: true,
@@ -65,7 +65,7 @@ module.exports = {
             {
                 text: '官方账号',
                 items: [
-                    { text: 'Bilibili', link: 'https://space.bilibili.com/108877433', icon: 'reco-bilibili' },
+                    { text: '哔哩哔哩', link: 'https://space.bilibili.com/108877433', icon: 'reco-bilibili' },
                     { text: 'Github', link: 'https://github.com/Net-R-Studio', icon: 'reco-tag' }
                 ]
             },
@@ -81,49 +81,6 @@ module.exports = {
             },
 
         ]
-        // vssueConfig: {
-        //     platform: 'github',
-        //     owner: 'OWNER_OF_REPO',
-        //     repo: 'NAME_OF_REPO',
-        //     clientId: 'YOUR_CLIENT_ID',
-        //     clientSecret: 'YOUR_CLIENT_SECRET',
-        // }
-        // friendLink: [
-        //     {
-        //         title: 'vuepress-theme-reco',
-        //         desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        //         logo: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        //         link: 'https://vuepress-theme-reco.recoluan.com'
-        //     },
-        //     {
-        //         title: '午后南杂',
-        //         desc: 'Enjoy when you can, and endure when you must.',
-        //         email: 'recoluan@qq.com',
-        //         link: 'https://www.recoluan.com'
-        //     }
-        // ]
-        // locales: {
-        //     '/': {
-        //         recoLocales: {
-        //             homeBlog: {
-        //                 // ...
-        //             },
-        //             pagation: {
-        //                 // ...
-        //             }
-        //         }
-        //     },
-        //     '/en-US/': {
-        //         recoLocales: {
-        //             homeBlog: {
-        //                 // ...
-        //             },
-        //             pagation: {
-        //                 // ...
-        //             }
-        //         }
-        //     }
-        // },
         /**
         * support for
         * 'default'
