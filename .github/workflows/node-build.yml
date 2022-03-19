@@ -16,7 +16,6 @@ jobs:
       matrix:
         node-version: 
         - 16.x
-        - 18.x
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -29,4 +28,4 @@ jobs:
     - name: Install dependencies
       run: npm ci
     - name: Start Build
-      run: npm run build --if-present
+      run: npm run docs:build
