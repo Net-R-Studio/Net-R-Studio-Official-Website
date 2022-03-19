@@ -1,8 +1,8 @@
 ---
 home: true
-# heroImage: /hero.png
-actionText: '了解♂一下'
-actionLink: /know.html
+heroImage: /logo.png
+actionText: "了解♂一下"
+actionLink: /know.md
 footer: Copyright © 2018-present Evan You
 ---
 

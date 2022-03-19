@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "ms-ceintl.vscode-language-pack-zh-hans",
+        "eamodio.gitlens",
+        "donjayamanne.githistory",
+        "github.remotehub",
+        "oderwat.indent-rainbow",
+        // "davidanson.vscode-markdownlint",
+        "christian-kohler.path-intellisense",
+        "shardulm94.trailing-spaces",
+        "eg2.vscode-npm-script",
+        "christian-kohler.npm-intellisense"
+    ]
+}

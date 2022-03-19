@@ -1,13 +1,14 @@
 {
   "name": "nrs-docs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "NRS工作室的文档",
   "main": "index.js",
   "author": "Yang 1107 Yuwangxiang",
-  "license": "None",
+  "license": "CC-BY-SA",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:http-server": "http-server ./docs/.vuepress/dist/"
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.8.3",
@@ -18,6 +19,7 @@
     "vuepress-plugin-flowchart": "^1.5.0"
   },
   "dependencies": {
+    "http-server": "^14.1.0",
     "markdown-it": "^12.3.0",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-toc": "^1.1.0",
